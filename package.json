@@ -1,0 +1,28 @@
+{
+  "name": "dsh-local-rag",
+  "version": "1.0.0",
+  "description": "给 DSH 的本地资料库检索 MCP：node:sqlite + FTS5，中文 bigram 分词，把散落的会话文件变成可检索的长期记忆。",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "server.js",
+  "bin": {
+    "dsh-rag": "server.js"
+  },
+  "scripts": {
+    "build": "node --no-warnings build.js",
+    "rebuild": "node --no-warnings build.js --force",
+    "serve": "node --no-warnings server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "mcp",
+    "rag",
+    "sqlite",
+    "fts5",
+    "chinese"
+  ]
+}

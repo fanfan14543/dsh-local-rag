@@ -1,0 +1,6 @@
+index.db
+index.db-shm
+index.db-wal
+config.json
+node_modules/
+*.log
